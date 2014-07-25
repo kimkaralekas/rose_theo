@@ -6,8 +6,28 @@ body {
 	font: 14px Helvetica, Sans-Serif; 
 }
 
+.nav {
+	height: 40px;
+	background: #a7e0ee;
+}
+
+.nav ul li a {
+	text-decoration: none;
+	float: left;
+	display: block;
+	padding: 10px 20px;
+	font-family: "Cool Font";
+	font-size: 26px;
+	color: black;
+}
+
+.nav ul li a:hover {
+	color: white;
+}
+
 #page-wrap { 
-	width: 800px; margin: 25px auto; 
+	width: 800px; 
+	margin: 25px auto; 
 } 
 
 a { 
