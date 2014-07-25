@@ -113,3 +113,11 @@ ul.dropdown li:hover > ul {
 	visibility: visible; 
 }
 
+#footer {
+	clear: both; 
+	margin-top: 20px;
+	border-top: 1px #BAC2C1;
+	padding: 20px 0px;
+	font-size: 80%;
+	text-align: center;
+}
