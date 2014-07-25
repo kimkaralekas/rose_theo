@@ -114,10 +114,15 @@ ul.dropdown li:hover > ul {
 }
 
 #footer {
-	clear: both; 
-	margin-top: 20px;
-	border-top: 1px #BAC2C1;
-	padding: 20px 0px;
+	border-top: 1px solid;
+	margin: 0 auto;
+	font: 18px "Cool Font", Arial, Helvetica, Geneva Sans-Serif;
 	font-size: 80%;
 	text-align: center;
+	color: gray;
+	padding-top: 10px;
+	position: fixed;
+	width: 100%;
+	bottom: 5px;
 }
+
