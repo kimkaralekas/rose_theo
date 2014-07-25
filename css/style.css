@@ -18,9 +18,14 @@ ul {
 	list-style: none; 
 }
 
+@font-face {
+	font-family: "Cool Font";
+	src: url(".../fonts/AmaticSC-Regular") format("truetype");
+}
+
 p { 
 	margin: 15px 0;
-	text-align: center; 
+	font: 18px "Cool Font", Arial, Helvetica, Geneva Sans-Serif; 
 }
 
 /* 
