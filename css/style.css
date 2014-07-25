@@ -26,6 +26,7 @@ ul {
 p { 
 	margin: 15px 0;
 	font: 18px "Cool Font", Arial, Helvetica, Geneva Sans-Serif; 
+	font-size: 30px;
 }
 
 /* 
@@ -33,6 +34,8 @@ p {
 */
 ul.dropdown { 
 	position: relative; 
+	font: 18px "Cool Font", Arial, Helvetica, Geneva Sans-Serif; 
+	font-size: 30px;
 }
 
 ul.dropdown li { 
