@@ -20,7 +20,7 @@ ul {
 
 @font-face {
 	font-family: "Cool Font";
-	src: url(".../fonts/AmaticSC-Regular.ttf") format("truetype");
+	src: url("../fonts/AmaticSC-Regular.ttf") format("truetype");
 }
 
 p { 
