@@ -5,12 +5,12 @@
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 06 Aug 2014 19:50:37 -0500</pubDate>
-    <lastBuildDate>Wed, 06 Aug 2014 19:50:37 -0500</lastBuildDate>
+    <pubDate>Wed, 06 Aug 2014 20:10:48 -0500</pubDate>
+    <lastBuildDate>Wed, 06 Aug 2014 20:10:48 -0500</lastBuildDate>
     <generator>Jekyll v2.2.0</generator>
     
       <item>
-        <title>Welcome to Jekyll!</title>
+        <title>test test test</title>
         <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes!
 To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
 
