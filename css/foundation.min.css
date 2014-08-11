@@ -207,7 +207,7 @@ select {
     float:left
 }
 
-/*header styling*/
+/* header styling */
 header ul.navigation li {
   display: inline-block;
   list-style: none;
@@ -224,6 +224,21 @@ header h1 {
 
 }
 
+/* footer */
+.left  
+{  
+  float:left;  
+}  
+
+.center 
+{
+  width: 100%;  
+} 
+
+.right  
+{  
+  float: right;    
+}
 
 @media only screen {
 .small-push-0 {
