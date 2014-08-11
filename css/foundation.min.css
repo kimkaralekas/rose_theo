@@ -866,18 +866,6 @@ text-align:center;
 }
 
 
-.top-bar-section .dropdown li .button,.top-bar-section .dropdown li button {
-    top:auto
-}
-
-.top-bar-section .dropdown label {
-    padding:8px 15px 2px;
-    margin-bottom:0;
-    text-transform:uppercase;
-    color:#777;
-    font-weight:700;
-    font-size:.625rem
-}
 
 .js-generated {
     display:block
