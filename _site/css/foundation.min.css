@@ -192,7 +192,6 @@ select {
     clear:both
 }
 
-
 .widget-area {
     float: right;
     list-style: none;
@@ -202,6 +201,10 @@ select {
     display: block;
     font-size: 17px;
     padding-right: 300px;
+}
+
+ul {
+    list-style-type: none; 
 }
 
 /* footer */
