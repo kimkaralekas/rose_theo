@@ -192,6 +192,8 @@ select {
     clear:both
 }
 
+
+/* header */
 .widget-area {
     float: right;
     list-style: none;
@@ -203,8 +205,24 @@ select {
     padding-right: 300px;
 }
 
-ul {
-    list-style-type: none; 
+#navcontainer ul {
+padding: 0;
+list-style-type: none;
+text-align: right;
+}
+
+#navcontainer ul li { 
+    display: inline; 
+}
+
+#navcontainer ul li a {
+text-decoration: none;
+padding: .2em 1em;
+color: #666;
+}
+
+#navcontainer ul li a:hover {
+color: #00CCCC;
 }
 
 /* footer */
