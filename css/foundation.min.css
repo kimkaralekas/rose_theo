@@ -58,6 +58,10 @@ body {
     cursor:default
 }
 
+#small-block-grid-3 {
+	text-align: center;
+}
+
 a:hover {
     cursor:pointer
 }
