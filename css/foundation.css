@@ -55,10 +55,12 @@ a:hover {
 
 img {
   max-width: 100%;
-  height: auto; }
+  height: auto; 
+}
 
 img {
-  -ms-interpolation-mode: bicubic; }
+  -ms-interpolation-mode: bicubic; 
+}
 
 #map_canvas img,
 #map_canvas embed,

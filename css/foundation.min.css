@@ -207,6 +207,14 @@ select {
     float:left
 }
 
+/*header styling*/
+header ul.navigation li {
+  display: inline-block;
+  list-style: none;
+  margin-left: 1em;
+}
+
+
 @media only screen {
 .small-push-0 {
     position:relative;
