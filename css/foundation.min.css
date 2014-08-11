@@ -213,6 +213,7 @@ header ul.navigation li {
   list-style: none;
   margin-left: 1em;
   float: right;
+  line-height: 50px;
 }
 
 
