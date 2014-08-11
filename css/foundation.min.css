@@ -58,9 +58,21 @@ body {
     cursor:default
 }
 
-#small-block-grid-3 {
-	text-align: center;
+
+.my-grid li {
+    display:block;
+    height:150px;
+    overflow:hidden;
 }
+
+.my-grid li > div {
+    height:100%;
+    width:100%;
+    background-size:cover;
+    background-position:center center;
+}
+
+
 
 a:hover {
     cursor:pointer
