@@ -216,6 +216,13 @@ header ul.navigation li {
   line-height: 50px;
 }
 
+header h1 {
+    display:block;
+    height: 50px;
+    margin: 30px 0 0 0;
+    float: left;
+}
+
 
 @media only screen {
 .small-push-0 {
