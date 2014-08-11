@@ -225,19 +225,20 @@ header h1 {
 }
 
 /* footer */
-.left  
-{  
-  float:left;  
-}  
+.left{
+text-align:left;
+float:left;
+margin-left: 115px;
+}
 
-.center 
-{
-  width: 100%;  
-} 
+.right{
+float:right;
+text-align:right;
+margin-right: 115px;
+}
 
-.right  
-{  
-  float: right;    
+.centered{
+text-align:center;
 }
 
 @media only screen {
