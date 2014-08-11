@@ -805,67 +805,6 @@ text-align:center;
     float:right
 }
 
-.push-0 {
-    position:relative;
-    left:0;
-    right:auto
-}
-
-.pull-0 {
-    position:relative;
-    right:0;
-    left:auto
-}
-
-.push-1 {
-    position:relative;
-    left:8.33333%;
-    right:auto
-}
-
-.pull-1 {
-    position:relative;
-    right:8.33333%;
-    left:auto
-}
-
-.push-2 {
-    position:relative;
-    left:16.66667%;
-    right:auto
-}
-
-.pull-2 {
-    position:relative;
-    right:16.66667%;
-    left:auto
-}
-
-.push-3 {
-    position:relative;
-    left:25%;
-    right:auto
-}
-
-.pull-3 {
-    position:relative;
-    right:25%;
-    left:auto
-}
-
-.push-4 {
-    position:relative;
-    left:33.33333%;
-    right:auto
-}
-
-.pull-4 {
-    position:relative;
-    right:33.33333%;
-    left:auto
-}
-
-
 
 .js-generated {
     display:block
