@@ -211,7 +211,7 @@ select {
 header ul.navigation li {
   display: inline-block;
   list-style: none;
-  margin-left: 1em;
+  margin: 0 40px;
   float: right;
   line-height: 50px;
 }
