@@ -192,36 +192,16 @@ select {
     clear:both
 }
 
-.column,.columns {
-    padding-left:.9375rem;
-    padding-right:.9375rem;
-    width:100%;
-    float:left
-}
 
-[class*="column"]+[class*="column"]:last-child {
-    float:right
-}
-
-[class*="column"]+[class*="column"].end {
-    float:left
-}
-
-/* header styling */
-header ul.navigation li {
-  display: inline-block;
-  list-style: none;
-  margin: -20px 60px 30px 0;
-  float: right;
-  line-height: 50px;
-  font-size: 18px;
-}
-
-header h1 {
-    display:block;
-    height: 50px;
-    margin: 30px 0 30px 10px;
-
+.widget-area {
+    float: right;
+    list-style: none;
+    text-align: right;
+    width: 140px;
+    color: #666;
+    display: block;
+    font-size: 17px;
+    padding-right: 300px;
 }
 
 /* footer */
@@ -229,6 +209,8 @@ header h1 {
 text-align:left;
 float:left;
 margin-left: 115px;
+background-color: #666;
+color: #fff;
 }
 
 .right{
