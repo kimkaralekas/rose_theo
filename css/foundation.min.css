@@ -47,15 +47,6 @@ img {
     vertical-align:middle
 }
 
-textarea {
-    height:auto;
-    min-height:50px
-}
-
-select {
-    width:100%
-}
-
 .row {
     width:100%;
     margin-left:auto;
@@ -64,59 +55,6 @@ select {
     margin-bottom:0;
     max-width:62.5rem
 }
-
-.row:before,.row:after {
-    content:" ";
-    display:table
-}
-
-.row:after {
-    clear:both
-}
-
-.row.collapse>.column,.row.collapse>.columns {
-    padding-left:0;
-    padding-right:0
-}
-
-.row.collapse .row {
-    margin-left:0;
-    margin-right:0
-}
-
-.row .row {
-    width:auto;
-    margin-left:-.9375rem;
-    margin-right:-.9375rem;
-    margin-top:0;
-    margin-bottom:0;
-    max-width:none
-}
-
-.row .row:before,.row .row:after {
-    content:" ";
-    display:table
-}
-
-.row .row:after {
-    clear:both
-}
-
-.row .row.collapse {
-    width:auto;
-    margin:0;
-    max-width:none
-}
-
-.row .row.collapse:before,.row .row.collapse:after {
-    content:" ";
-    display:table
-}
-
-.row .row.collapse:after {
-    clear:both
-}
-
 
 /* header */
 .widget-area {
