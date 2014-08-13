@@ -22,6 +22,11 @@ li {
     float: right;
 }
 
+h2 {
+  color: #fff;
+  float: left;
+  margin: 0 0 20px 0;
+}
 
 /* Site header */
 
@@ -72,28 +77,11 @@ padding: 8px;
 
 
 /* Site footer */
-#footer-col-1 {
-  width: 270px; /*fallback*/
-  width: -webkit-calc(35% - 10px);
-  width: -moz-calc(35% - 10px);
-  width: -o-calc(35% - 10px);
-  width: calc(35% - 10px);
-  margin-right: 10px
+.col {
+  background: #333333;
+  float: left;
+  padding: 30px 0 0 35px;
+  width: 100%;
+
 }
 
-#footer-col-2 {
-  width: 175px; /*fallback*/
-  width: -webkit-calc(23.125% - 10px);
-  width: -moz-calc(23.125% - 10px);
-  width: -o-calc(23.125% - 10px);
-  width: calc(23.125% - 10px);
-  margin-right: 10px
-}
-
-#footer-col-3 {
-  width: 335px; /*fallback*/
-  width: -webkit-calc(41.875%);
-  width: -moz-calc(41.875%);
-  width: -o-calc(41.875%);
-  width: calc(41.875%);
-}
