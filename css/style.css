@@ -11,6 +11,12 @@ body {
     cursor:default
 }
 
+ul {
+    list-style: none;
+}
+
+/* Site header */
+
 #container {
     display: block;
     font-family: "Minion Pro", serif;
