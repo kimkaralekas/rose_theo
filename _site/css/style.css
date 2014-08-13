@@ -10,3 +10,33 @@ body {
     position:relative;
     cursor:default
 }
+
+#container {
+    display: block;
+    font-family: "Minion Pro", serif;
+    font-size: 12px;
+    color: #959595;
+    letter-spacing: 1px;
+}
+
+.header {
+    margin-bottom: 10px;
+    display: block;
+}
+
+#inner-header {
+    border-bottom: 1px #cccccc solid;
+    padding-bottom: 20px;
+}
+
+.wrap {
+    max-width: 1000px;
+    min-width: 1000px;
+    padding: 0 5px;
+    width: 96%;
+    margin: 0 auto;
+}
+
+.clearfix {
+    zoom: 1;
+}
