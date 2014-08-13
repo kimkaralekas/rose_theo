@@ -22,6 +22,7 @@ li {
     float: right;
 }
 
+
 /* Site header */
 
 #container {
@@ -54,6 +55,16 @@ li {
     zoom: 1;
 }
 
+#navlist li
+{
+display: inline;
+list-style-type: none;
+padding: 8px;
+}
+
+#navlist > li > a:hover {
+    color: black;
+}
 
 
 /* Site footer */
