@@ -89,40 +89,11 @@ footer {
   padding-bottom: 1em;
  }
 
- .credit {
-  font-size: 0.875em;
-  float: left;
-  padding: 0.5em 0;
-}
-
-.credit a {
-  color: #578b9c;
-  font-style: italic;
-}
-
 .text-transform {
   text-transform: uppercase;
   color: #ffffff;
+  font-size: 13px;
+  font-weight: 700px;
+  line-height: 26px;
+  text-align: center;
 }
-
-#demo-nav {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-#demo-nav li.current a {color: #9b9796;}
-#demo-nav li.current a:hover {color: #111;}
-
-#demo-nav a {
-  color:#fff;
-  padding: 0.75em 5%;
-  text-decoration: none;
-  display: block;
-  background-color: #575352;
-}
-  
-#demo-nav a:hover {
-  background-color: #777372;
-}  
-.credit a:hover {color: #97cbdc;}
