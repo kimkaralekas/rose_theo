@@ -17,6 +17,7 @@ time, mark, audio, video {
   font: inherit;
   font-size: 100%;
   vertical-align: baseline;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 html {
@@ -31,11 +32,11 @@ a img {
   border: none;
 }
 
+
 /* Site header */
 
 #navcontainer {
     display: block;
-    font-family: "Arial", serif;
     font-size: 12px;
     color: #959595;
     letter-spacing: 1px;
@@ -90,7 +91,6 @@ footer {
  }
 
 .text-transform {
-  text-transform: uppercase;
   color: #ffffff;
   font-size: 13px;
   font-weight: 700px;
@@ -100,9 +100,8 @@ footer {
 }
 
 .text-transform-2 {
-  text-transform: uppercase;
   color: #ffffff;
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 700px;
   line-height: 26px;
   text-align: center;
