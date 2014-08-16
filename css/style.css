@@ -21,6 +21,10 @@ a img {
   border: none;
 }
 
+/* Site nav */
+#nav-menu {
+  display: inline-block;
+}
 
 /* Site header */
 .container {
@@ -35,7 +39,6 @@ a img {
     margin-bottom: 10px;
     display: block;
 }
-
 
 /* Site footer */
 footer {
