@@ -21,13 +21,8 @@ a img {
   border: none;
 }
 
-/* Site nav */
-#nav-menu {
-  display: inline-block;
-}
-
 /* Site header */
-.container {
+.logo {
     display: block;
     font-size: 24px;
     color: #959595;
@@ -35,9 +30,15 @@ a img {
     text-decoration: none;
 }
 
-.site-header {
+.header {
     margin-bottom: 10px;
     display: block;
+}
+
+/* Site nav */
+#nav-menu {
+  display: inline-block;
+  text-align: left;
 }
 
 /* Site footer */
