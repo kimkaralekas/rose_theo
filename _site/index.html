@@ -15,34 +15,18 @@
   <link rel="stylesheet" href="css/foundation.css">
    <link rel="stylesheet" href="css/foundation.min.css">
   <link rel="stylesheet" href="css/style.css">
-</head>
-
-
-
-
+      <!-- Include jQuery and bootstrap JS plugins -->
+<script src="includes/jquery/jquery-2.1.0.min.js"></script>
+<script src="includes/bootstrap/js/bootstrap.min.js"></script>
+ </head>
 
     <body>
 
-    <!-- 
-<header class="site-header">
-
-  <div id="navcontainer">
-    <ul id="navlist">
-      <li id="active"><a href="/about/" title="About">About</a></li>
-      <li><a href="/contact/" title="Contact">Contact</a></li>
-      <li><a href="/custom/" title="Custom">Custom</a></li>
-      <li><a href="/faq/" title="FAQ">FAQ</a></li>
-    </ul>
-  </div> -->
-  
-
-
- <!-- Site header and navigation -->
+    <!-- Site header and navigation -->
     <header class="top" role="header">
         <div class="container">
-            <a href="#" class="navbar-brand pull-right">
-                BS3 TUTORIAL
-            </a>
+            <a href="#" class="navbar-brand pull-right"></a>
+<!-- navbar-toggle will show when the website is viewed on a mobile device or through a small browser window. This button will allow the user to toggle the menu open and closed, saving space. To provide this functionality the data attributes. data-toggle=”collapse” data-target=”.navbar-collapse” are added to allow bootstraps JavaScript to hide or show the target element. -->
             <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                 <span class="glyphicon glyphicon-align-justify"></span>
             </button>
@@ -126,7 +110,7 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/foundation.css">
-<link rel="stylesheet" href="css/foundation.min.css">
+   <link rel="stylesheet" href="css/foundation.min.css">
   <link rel="stylesheet" href="css/style.css">
 
       <!-- Include jQuery and bootstrap JS plugins -->
@@ -141,14 +125,15 @@
       </div>
     </div>
 
-    <div id='layout_footer'></div>
-  </div>
-  <div id='footer'>
-    This is the footer area.
-  </div>
-</div>
-
-
+    <footer>
+  <nav>
+    <ul id="demo-nav">
+      <li><a href="">Back to Post</a></li>
+      <li class="current"><a href="footer-only.html">Footer Only</a></li>
+      <li><a href="footer-anchor.html">Footer Anchor</a></li>
+    </ul>
+  </nav>
+</footer>
 
     </body>
 </html>
