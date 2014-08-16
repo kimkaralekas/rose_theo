@@ -68,25 +68,12 @@ padding: 8px;
 
 
 /* Site footer */
-.col {
-  background: #333333;
-  float: left;
-  padding: 30px 0 0 35px;
-  width: 100%;
+#footer {
+  clear: both;
+  position: relative;
+  height: 72px;
 }
-
-#col-footer {
-    display: block;
-    font-family: "Arial", serif;
-    font-size: 12px;
-    color: #959595;
-    letter-spacing: 1px;
-}
-
-element.style {
-  text-transform: uppercase;
-  color: #ffffff;
-  font-size: 13px;
-  font-weight: 700;
-  line-height: 
+ 
+#footer {
+  background: #cccccc;
 }
