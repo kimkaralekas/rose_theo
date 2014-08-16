@@ -35,10 +35,10 @@ a img {
     display: block;
 }
 
-/* Site nav */
-#nav-menu {
+.nav-menu {
   display: inline-block;
-  text-align: left;
+  float: right;
+  padding: 20px;
 }
 
 /* Site footer */
