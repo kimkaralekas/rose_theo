@@ -100,6 +100,11 @@ footer {
   font-style: italic;
 }
 
+.text-transform {
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
 #demo-nav {
   margin: 0;
   padding: 0;
@@ -121,64 +126,3 @@ footer {
   background-color: #777372;
 }  
 .credit a:hover {color: #97cbdc;}
-
-/* Media queries */
-
-@media screen and (min-width: 42.5em) {
-  #demo-nav {
-    background: #474342;
-    padding: 1.5em 0;
-    border-bottom: 1px solid #878382;
-    overflow: hidden;
-  }
-    
-  #demo-nav li {border: 0;}
-    
-  #demo-nav a {
-    padding: 0.75em 0 0.75em 5%;
-    float: left;
-    background-color: transparent;
-    background-image: none;
-    border-width: 0;
-  }
-    
-  #demo-nav a:hover {
-    background-color: transparent;
-    background-image: none;     
-  }
-}
-
-@media screen and (min-width: 56em) {
-  #demo-nav a {padding: 0.75em 1.5em 0.75em 5%;}
-}
-
-@media screen and (min-width: 64em) {
-  footer .credit {
-    padding: 0.75em 0;
-  }
-  
-  #demo-nav {
-    float: right;
-    margin-right: 5%;
-    background: transparent;
-    border: 0;
-    padding: 1em 0;
-  }
-
-  #demo-nav li {display: inline;}
-    
-  #demo-nav a {
-    padding: 0.5em 1.25em;
-  }
-    
-  #demo-nav a:hover {
-    color: #777
-  }
-    
-  #demo-nav li.current a:hover {color: #777;}
-  #demo-nav li:last-child a {padding-right: 0;}
-}
-
-@media screen and (min-width: 75em) {
-  #demo-nav a {padding: 0.5em 1.75em;}
-}
