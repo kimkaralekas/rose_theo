@@ -34,10 +34,9 @@ a img {
 
 
 /* Site header */
-
-#navcontainer {
+.container {
     display: block;
-    font-size: 12px;
+    font-size: 24px;
     color: #959595;
     letter-spacing: 1px;
 }
@@ -45,38 +44,6 @@ a img {
 .site-header {
     margin-bottom: 10px;
     display: block;
-}
-
-#inner-header {
-    border-bottom: 1px #cccccc solid;
-    padding-bottom: 20px;
-}
-
-.wrap {
-    max-width: 1000px;
-    min-width: 1000px;
-    padding: 0 5px;
-    width: 96%;
-    margin: 0 auto;
-}
-
-.clearfix {
-    zoom: 1;
-}
-
-#navlist li
-{
-display: inline;
-list-style-type: none;
-padding: 8px;
-}
-
-#navlist > li > a {
-    padding: 3px 8px;
-}
-
-#navlist > li > a:hover {
-    color: black;
 }
 
 
@@ -90,7 +57,7 @@ footer {
   padding-bottom: 1em;
  }
 
-.text-transform {
+.social {
   color: #ffffff;
   font-size: 13px;
   font-weight: 700px;
@@ -105,5 +72,5 @@ footer {
   font-weight: 700px;
   line-height: 26px;
   text-align: center;
-  padding-top: 15px;
+  padding-top: 5px;
 }
