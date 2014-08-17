@@ -17,6 +17,12 @@ ol, ul {
   list-style: none;
 }
 
+li {
+  display: inline-block;
+  float: left;
+  padding: 10px;
+}
+
 a img {
   border: none;
 }
