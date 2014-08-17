@@ -63,6 +63,11 @@ header {
   color: #444444;
 }
 
+.ul.dropdown {
+  position: relative;
+  font-size: 18px;
+}
+
 /* Site body */
 .row {
   margin-top: 30px;
