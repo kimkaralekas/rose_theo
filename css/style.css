@@ -21,11 +21,37 @@ li {
   display: inline-block;
   float: left;
   padding: 10px;
+  font-size: 20px;
+}
+
+a {
+  color: #4C9CF1;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #444;
 }
 
 a img {
   border: none;
 }
+
+.current {
+  color: #22ad32;
+}
+
+header {
+  width: 100%;
+  height: 76px;
+  top: 0;
+  left: 0;
+  border-bottom: 2px solid #a7a3a2;
+  z-index: 100;
+
+}
+
 
 /* Site header */
 .logo {
@@ -36,7 +62,7 @@ a img {
     text-decoration: none;
 }
 
-.header {
+.header-1 {
     margin-bottom: 10px;
     display: block;
 }
@@ -45,6 +71,11 @@ a img {
   display: hidden;
   float: right;
   padding: 20px;
+}
+
+/* Site body */
+.row {
+  margin-top: 30px;
 }
 
 /* Site footer */
