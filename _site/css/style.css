@@ -72,6 +72,15 @@ header {
   float: right;
 }
 
+ul.dropdown a:active { 
+  color: #ffa500; 
+}
+
+ul.dropdown li a { 
+  display: block; 
+  padding: 4px 8px;  
+}
+
 /* Site body */
 .row {
   margin-top: 30px;
