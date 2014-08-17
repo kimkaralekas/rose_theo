@@ -25,13 +25,13 @@ li {
 }
 
 a {
-  color: #6f7071;
+  color: #959595;
   text-decoration: none;
   font-weight: bold;
 }
 
 a:hover {
-  color: #17b4ec;
+  color: #3c3a3a;
 }
 
 .current {
@@ -51,6 +51,12 @@ header {
   float: right;
   padding-bottom: 30px;
 }
+
+.nav-sep {
+  padding: 0px 22px 0px 22px;
+  display: inline-block;
+  color: #959595;
+} 
 
 
 /* Site body */
