@@ -48,10 +48,15 @@ header {
 
 /* site header - logo */
 .wrap {
-  margin: 0 auto;
+  padding: 0;
 }
 
-/* site header */
+.logo {
+display: block;
+padding: 20px 0 0 10px;
+}
+
+/* site header - nav */
 .menu-bar {
   float: right;
   padding-bottom: 30px;
