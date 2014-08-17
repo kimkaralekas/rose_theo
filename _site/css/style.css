@@ -68,6 +68,10 @@ header {
   font-size: 18px;
 }
 
+.ul dropdown li {
+  float: right;
+}
+
 /* Site body */
 .row {
   margin-top: 30px;
