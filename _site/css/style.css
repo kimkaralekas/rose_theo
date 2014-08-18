@@ -60,6 +60,10 @@ padding: 20px 0 0 10px;
   color: #666; 
 }
 
+li.selected a {
+  color: #F5785A;
+}
+
 .menu-bar {
   float: right;
   padding-bottom: 30px;
@@ -70,10 +74,6 @@ padding: 20px 0 0 10px;
   display: inline-block;
   color: #959595;
 } 
-
-li.selected a {
-  color: #F5785A;
-}
 
 /* Site body */
 .row {
