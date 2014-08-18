@@ -49,7 +49,6 @@ header {
 /*contact page */
 #page-wrap {
   width: 260px;
-  background: white;
   padding: 70px 50px 20px 50px;
   margin: 20px auto;
   min-height: 500px;
@@ -60,9 +59,30 @@ header {
 #contact-area {
   width: 400px;
   margin-top: 25px;
+  float: left;
 }
 
+#contact-area input, #contact-area textarea {
+  padding: 5px;
+  width: 471px;
+  font-size: 1.4em;
+  margin: 0px 0px 10px 0px;
+  border: 2px solid #ccc;
+}
 
+#contact-area input.submit-button {
+  width: 100px;
+  float: right;
+}
+
+label {
+  float: left;
+  text-align: right;
+  margin-right: 15px;
+  width: 100px;
+  padding-top: 5px;
+  font-size: 1.4em;
+}
 
 /* site header - logo */
 .wrap {
