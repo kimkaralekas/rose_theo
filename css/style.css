@@ -43,7 +43,6 @@ header {
   height: 125px;
   border-bottom: 1px solid #959a9c;
   z-index: 100;
-
 }
 
 /* site header - logo */
@@ -57,6 +56,10 @@ padding: 20px 0 0 10px;
 }
 
 /* site header - nav */
+#home .home, #about .about, #contact .contact, #faq .faq {
+  color: #666; 
+}
+
 .menu-bar {
   float: right;
   padding-bottom: 30px;
@@ -68,8 +71,9 @@ padding: 20px 0 0 10px;
   color: #959595;
 } 
 
-
-
+li.selected a {
+  color: #F5785A;
+}
 
 /* Site body */
 .row {
