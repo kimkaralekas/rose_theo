@@ -67,6 +67,7 @@ li.selected a {
 .menu-bar {
   float: right;
   padding-bottom: 30px;
+  padding-right: 20px;
 }
 
 .nav-sep {
@@ -74,6 +75,7 @@ li.selected a {
   display: inline-block;
   color: #959595;
 } 
+
 
 /* Site body */
 .row {
