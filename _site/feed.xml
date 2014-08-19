@@ -5,8 +5,8 @@
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
     <link>http://localhost:8080/</link>
     <atom:link href="http://localhost:8080/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 18 Aug 2014 11:20:33 -0500</pubDate>
-    <lastBuildDate>Mon, 18 Aug 2014 11:20:33 -0500</lastBuildDate>
+    <pubDate>Mon, 18 Aug 2014 20:50:20 -0500</pubDate>
+    <lastBuildDate>Mon, 18 Aug 2014 20:50:20 -0500</lastBuildDate>
     <generator>Jekyll v2.2.0</generator>
     
       <item>
@@ -26,8 +26,8 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 
 </description>
         <pubDate>Wed, 06 Aug 2014 14:08:44 -0500</pubDate>
-        <link>http://localhost:8080/jekyll/update/2014/08/06/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">http://localhost:8080/jekyll/update/2014/08/06/welcome-to-jekyll/</guid>
+        <link>http://localhost:8080/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://localhost:8080/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
