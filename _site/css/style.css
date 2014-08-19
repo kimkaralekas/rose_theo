@@ -41,8 +41,45 @@ a:hover {
 header {
   width: 100%;
   height: 125px;
-  border-bottom: 1px solid #959a9c;
-  z-index: 100;
+}
+
+
+/*contact page */
+#page-wrap {
+  width: 260px;
+  padding: 70px 50px 20px 50px;
+  margin: 20px auto;
+  min-height: 500px;
+  height: auto !important;
+  height: 500px;
+}
+
+#contact-area {
+  width: 400px;
+  margin-top: 25px;
+  float: left;
+}
+
+#contact-area input, #contact-area textarea {
+  padding: 5px;
+  width: 471px;
+  font-size: 1.4em;
+  margin: 0px 0px 10px 0px;
+  border: 2px solid #ccc;
+}
+
+#contact-area input.submit-button {
+  width: 100px;
+  float: right;
+}
+
+label {
+  float: left;
+  text-align: right;
+  margin-right: 15px;
+  width: 100px;
+  padding-top: 5px;
+  font-size: 1.4em;
 }
 
 /* site header - logo */
@@ -53,22 +90,29 @@ header {
 .logo {
 display: block;
 padding: 20px 0 0 10px;
+width: 50%;
+float: left;
 }
 
 /* site header - nav */
-#home .home, #about .about, #contact .contact, #faq .faq {
+#about .about, #contact .contact, #faq .faq {
   color: #666; 
 }
 
-li.selected a {
+li.selected a:active {
   color: #F5785A;
 }
 
 .menu-bar {
-  float: right;
+  float: left;
   padding-bottom: 30px;
   padding-right: 20px;
+  padding-top: 2.5em;
+  width: 50%;
 }
+  .menu-bar ul{
+    float: right;
+  }
 
 .nav-sep {
   padding: 0px 22px 0px 22px;
@@ -82,10 +126,7 @@ li.selected a {
   margin-top: 30px;
 }
 
-#wrapper {
-  width: 75%;
-  margin: 0px auto;
-}
+
 
 h3 {
   text-align: center;
@@ -121,3 +162,38 @@ footer {
   text-align: center;
   padding-top: 5px;
 }
+
+.img-container {
+  width:80%;
+  margin: 0 auto;
+}
+  .img-container ul {
+    width: 100%;
+    margin: 0;
+  }
+
+.img-cap{
+  text-align: center;
+}
+
+ 
+/*Over-ridding Foundation styles*/
+a .img-thumb{
+  width:  100%;
+}
+
+.img-container {
+  width: 80%;
+  margin: 0 auto;
+}
+  .img-container img{
+    width: 100%;
+  }
+
+
+
+
+
+
+
+
