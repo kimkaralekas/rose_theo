@@ -104,13 +104,23 @@ li.selected a:active {
 }
 
 .menu-bar {
+<<<<<<< Updated upstream
   float: left;
+=======
+  width: 49%;
+  float: left;
+  padding-top: 2.5em;
+>>>>>>> Stashed changes
   padding-bottom: 30px;
   padding-right: 20px;
   padding-top: 2.5em;
   width: 50%;
 }
+<<<<<<< Updated upstream
   .menu-bar ul{
+=======
+  .menu-bar ul {
+>>>>>>> Stashed changes
     float: right;
   }
 
@@ -175,6 +185,14 @@ footer {
 .img-cap{
   text-align: center;
 }
+<<<<<<< Updated upstream
+=======
+ 
+/*Over-ridding Foundation styles*/
+a .img-thumb{
+  width:  100%;
+}
+>>>>>>> Stashed changes
 
  
 /*Over-ridding Foundation styles*/
