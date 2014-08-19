@@ -41,8 +41,6 @@ a:hover {
 header {
   width: 100%;
   height: 125px;
-  border-bottom: 1px solid #959a9c;
-  z-index: 100;
 }
 
 
@@ -92,6 +90,8 @@ label {
 .logo {
 display: block;
 padding: 20px 0 0 10px;
+width: 50%;
+float: left;
 }
 
 /* site header - nav */
@@ -104,10 +104,15 @@ li.selected a:active {
 }
 
 .menu-bar {
-  float: right;
+  float: left;
   padding-bottom: 30px;
   padding-right: 20px;
+  padding-top: 2.5em;
+  width: 50%;
 }
+  .menu-bar ul{
+    float: right;
+  }
 
 .nav-sep {
   padding: 0px 22px 0px 22px;
@@ -162,14 +167,17 @@ img {
   max-width: 100%; 
 }
 
-/*figure {
-  height: 250px;
-  width: 250px; 
-}
 .img-cap{
   text-align: center;
-}*/
+}
 
+.img-container {
+  width: 80%;
+  margin: 0 auto;
+}
+  .img-container img{
+    width: 100%;
+  }
 
 
 
