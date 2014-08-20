@@ -58,47 +58,116 @@ header {
   height: 125px;
 }
 
-
-
-
-
-
 /*contact page */
-#page-wrap {
-  width: 260px;
-  padding: 70px 50px 20px 50px;
-  margin: 20px auto;
-  min-height: 500px;
-  height: auto !important;
-  height: 500px;
+div#envelope{
+  width:50%;
+  margin: 10px 30% 10px 25%;
+  background-color:#ffffff;
+  padding:10px 0;
+  border:1px solid gray;
+  border-radius:10px;
+  }
+
+form{
+width:70%;
+margin:0 15%;
+}  
+
+form header {
+  text-align:center;
+  font-family: 'Roboto Slab', serif;
+  }
+
+/* Makes responsive fields.Sets size and field alignment.*/
+input[type=text]{
+margin-bottom: 20px;
+margin-top: 10px;
+  width:100%;
+  padding: 15px;
+  border-radius:5px;
+  border:1px solid #7ac9b7;
 }
 
-#contact-area {
-  width: 400px;
-  margin-top: 25px;
-  float: left;
+input[type=submit]{
+margin-bottom: 20px;
+  width:100%;
+  padding: 15px;
+  border-radius:5px;
+  border:1px solid #7ac9b7;
+  background-color:rgb(164, 230, 219);
 }
 
-#contact-area input, #contact-area textarea {
-  padding: 5px;
-  width: 471px;
-  font-size: 1.4em;
-  margin: 0px 0px 10px 0px;
-  border: 2px solid #ccc;
+textarea{
+  width:100%;
+  padding: 15px;
+  margin-top: 10px;
+    border:1px solid #7ac9b7;
+  border-radius:5px; 
+  margin-bottom: 20px;
+  resize:none;
+  }
+ 
+input[type=text]:focus,
+textarea:focus {
+  border-color: #4697e4;
 }
 
-#contact-area input.submit-button {
-  width: 100px;
-  float: right;
+/* By using @ media form can have different layout for screen, mobile phone, tablet.*/
+
+/* Sets the form layout for mobile phone, tablet*/
+
+div#envelope{
+  width:50%;
+  margin: 10px 30% 10px 25%;
+  background-color:#e4e5eb;
+  padding:10px 0;
+  border:1px solid gray;
+  border-radius:10px;
+  } 
+
+form{
+width:70%;
+margin:0 15%;
+}  
+
+form header {
+  text-align:center;
+  font-family: 'Roboto Slab', serif;
+  }
+
+/* Makes responsive fields.Sets size and field alignment.*/
+input[type=text]{
+margin-bottom: 20px;
+margin-top: 10px;
+  width:100%;
+  padding: 15px;
+  border-radius:5px;
+  border:1px solid #7ac9b7;
 }
 
-label {
-  float: left;
-  text-align: right;
-  margin-right: 15px;
-  width: 100px;
-  padding-top: 5px;
-  font-size: 1.4em;
+
+input[type=submit]{
+margin-bottom: 20px;
+  width:100%;
+  padding: 15px;
+  border-radius:5px;
+  border:1px solid #7ac9b7;
+  background-color:rgb(164, 230, 219);
+}
+
+textarea{
+  width:100%;
+  padding: 15px;
+  margin-top: 10px;
+    border:1px solid #7ac9b7;
+  border-radius:5px; 
+  margin-bottom: 20px;
+  resize:none;
+  }
+ 
+input[type=text]:focus,
+textarea:focus {
+  border-color: #4697e4;
 }
 
 /* site header - logo */
@@ -162,7 +231,7 @@ footer {
  }
 
 .social {
-  color: #ffffff;
+  color: #e4e5eb;
   font-size: 13px;
   font-weight: 700px;
   line-height: 26px;
