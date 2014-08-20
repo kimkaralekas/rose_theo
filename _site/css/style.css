@@ -11,7 +11,7 @@ menu, nav {
 
 h4 {
   font-size: 20px;
-  padding-left: 30px;
+  padding-left: 0px;
   color: #5e5c5c;
   padding-bottom: 5px;
 }
@@ -19,7 +19,15 @@ h4 {
 h5 {
   font-size: 16px;
   font-style: italic;
-  padding-left: 30px;
+  padding-left: 40px;
+  color: #8b8787;
+  margin-bottom: 20px;
+}
+
+h6 {
+  font-size: 16px;
+  padding-left: 40px;
+  padding-right: 40px;
   color: #8b8787;
   margin-bottom: 20px;
 }
@@ -175,7 +183,7 @@ textarea:focus {
   padding: 0;
 }
 
-.logo {
+.site-logo {
 display: block;
 padding: 20px 0 0 110px;
 width: 50%;

@@ -20,7 +20,13 @@
 ---------------------------------*/
 
 .header { position: relative; }
-#toggle, .toggle { display: none; }
+
+#toggle, .toggle { 
+	display: none;
+	margin: 0;
+	padding: 0;
+	outline:0; 
+}
 .menu > li { list-style: none; float:left;	}
 
 /* Nicolas Gallagher micro clearfix */
@@ -147,6 +153,22 @@
 		float: none; 
 	}
 	.toggle:after { 
-		text-align: center; width: 100%; 
+		content: 'Main Menu';
+		display: block;
+		width: 200px; 
+		margin: 33px 0;
+		padding: 10px 50px;
+		background: #51c1f1;
+		text-align: center; 
+		border-radius: 2px;
+		text-align: center;
+		font-size: 12px;
+		color: #ffffff;
 	}
 }
+
+
+
+
+
+
