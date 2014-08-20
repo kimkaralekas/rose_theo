@@ -27,8 +27,12 @@
 
   $(document).ready(function(){
     $('a img').animate({
-      opacity:.5
-
+      opacity:1
+    });
+    $('a img').hover(function(){
+      $(this).stop().animate({opacity:.5}, 'fast');
+  }, function(){
+      $(this).stop().animate({opacity:1});
     });
   });
 
