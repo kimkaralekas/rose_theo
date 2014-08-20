@@ -110,7 +110,7 @@ float: left;
 }
 
 /* site header - nav */
-#about .about, #contact .contact, #faq .faq {
+#about .about, #contact .contact, #portfolio .portfolio {
   color: #666; 
 }
 
@@ -121,6 +121,7 @@ float: left;
   padding-top: 2.5em;
   width: 50%;
 }
+
   .menu-bar ul {
     float: right;
   }
