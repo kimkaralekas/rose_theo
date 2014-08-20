@@ -17,31 +17,25 @@
   <!-- Include jQuery and bootstrap JS plugins -->
   <script src="includes/jquery/jquery-2.1.0.min.js"></script>
   <script src="includes/bootstrap/js/bootstrap.min.js"></script>
-  
-
-  <!-- JS hover over portf -->
-
+  <!-- jQuery a img hover -->
 <script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-
-  $(document).ready(function(){
-    $('a img').animate({
-      opacity:1
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('a img').animate({
+        opacity:1
+      });
+      $('a img').hover(function(){
+        $(this).stop().animate({
+          opacity:.5
+        }, 'fast');
+      }, function(){
+        $(this).stop().animate({
+          opacity:1
+        });
+      });
     });
-    $('a img').hover(function(){
-      $(this).stop().animate({opacity:.5}, 'fast');
-  }, function(){
-      $(this).stop().animate({opacity:1});
-    });
-  });
-
+  </script>
 </script>
-
-
-</script>
-
-
 
 
 
@@ -60,8 +54,8 @@
 	</h1>
 
 <!-- Header navigation -->
-	<div class="menu-bar">	
-		<ul>
+	<div class="menu-bar">
+		<ul class="flexnav" data-breakpoint="800">
 			<li><a href="http://www.roseandtheo.etsy.com/" class="shop">Shop</a>
 				<div class="nav-sep">|</div></li>			
 			<li><a href="/about.html" class="about">About</a>
