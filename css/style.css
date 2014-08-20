@@ -9,6 +9,21 @@ menu, nav {
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
+h4 {
+  font-size: 20px;
+  padding-left: 30px;
+  color: #5e5c5c;
+  padding-bottom: 5px;
+}
+
+h5 {
+  font-size: 16px;
+  font-style: italic;
+  padding-left: 30px;
+  color: #8b8787;
+  margin-bottom: 20px;
+}
+
 html {
   line-height: 1;
 }
@@ -99,10 +114,6 @@ float: left;
   color: #666; 
 }
 
-li.selected a:active {
-  color: #F5785A;
-}
-
 .menu-bar {
   float: left;
   padding-bottom: 30px;
@@ -119,7 +130,6 @@ li.selected a:active {
   display: inline-block;
   color: #959595;
 } 
-
 
 /* Site body */
 .row {
